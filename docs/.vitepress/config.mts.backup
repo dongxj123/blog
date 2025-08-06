@@ -75,3 +75,78 @@ export default defineConfig({
     }
   }
 })
+
+// https://vitepress.dev/reference/site-config
+export default defineConfig({
+  title: "我的博客",
+  description: "分享技术、生活与思考",
+  base: '/blog/', // GitHub Pages 仓库名
+  themeConfig: {
+    // https://vitepress.dev/reference/default-theme-config
+    nav: [
+      { text: '🏠 首页', link: '/' },
+      { text: '� 博客', link: '/diary/' },
+      { 
+        text: '📅 最新文章',
+        items: [
+          { text: 'React Render Props vs Vue 插槽', link: '/diary/2025-08-06-react-render-props' },
+          { text: '2025年8月6日 - 开始写博客', link: '/diary/2025-08-06' },
+          { text: '2025年8月5日 - 周末的思考', link: '/diary/2025-08-05' }
+        ]
+      },
+      { text: '📚 示例', link: '/markdown-examples' }
+    ],
+
+    sidebar: {
+      '/diary/': [
+        {
+          text: '� 我的博客',
+          items: [
+            { text: '📋 博客首页', link: '/diary/' },
+            { text: '2025年8月6日 - 开始写博客', link: '/diary/2025-08-06' },
+            { text: '2025年8月5日 - 周末的思考', link: '/diary/2025-08-05' }
+          ]
+        }
+      ],
+      '/': [
+        {
+          text: '示例',
+          items: [
+            { text: 'Markdown Examples', link: '/markdown-examples' },
+            { text: 'Runtime API Examples', link: '/api-examples' }
+          ]
+        }
+      ]
+    },
+
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/dongxj123/blog' }
+    ],
+
+    search: {
+      provider: 'local',
+      options: {
+        translations: {
+          button: {
+            buttonText: '搜索博客',
+            buttonAriaLabel: '搜索博客'
+          },
+          modal: {
+            noResultsText: '无法找到相关博客',
+            resetButtonTitle: '清除查询条件',
+            footer: {
+              selectText: '选择',
+              navigateText: '切换',
+              closeText: '关闭'
+            }
+          }
+        }
+      }
+    },
+
+    footer: {
+      message: '分享知识，记录成长',
+      copyright: 'Copyright © 2025 我的博客'
+    }
+  }
+})
