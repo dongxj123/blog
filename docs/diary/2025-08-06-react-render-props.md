@@ -6,7 +6,7 @@ tags: [React, Vue, 组件设计, 前端]
 outline: deep
 ---
 
-# React Render Props vs Vue 插槽 - 组件复用模式对比
+# 2025年8月6日 - React Render Props vs Vue 插槽 - 组件复用模式对比
 
 ::: info 文章概述
 深入对比 React 的 Render Props 模式和 Vue 的插槽机制，探索两种框架中组件逻辑复用的不同思路

@@ -13,6 +13,7 @@ export default defineConfig({
       { 
         text: '📅 最新文章',
         items: [
+          { text: 'React 和 Vue3 路由导航解析', link: '/diary/2025-08-07-react-vue-router' },
           { text: 'React Render Props vs Vue 插槽', link: '/diary/2025-08-06-react-render-props' },
           { text: '2025年8月6日 - 开始写博客', link: '/diary/2025-08-06' },
           { text: '2025年8月5日 - 周末的思考', link: '/diary/2025-08-05' }
@@ -27,6 +28,7 @@ export default defineConfig({
           text: '📝 我的博客',
           items: [
             { text: '📋 博客首页', link: '/diary/' },
+            { text: 'React 和 Vue3 路由导航解析', link: '/diary/2025-08-07-react-vue-router' },
             { text: 'React Render Props vs Vue 插槽', link: '/diary/2025-08-06-react-render-props' },
             { text: '2025年8月6日 - 开始写博客', link: '/diary/2025-08-06' },
             { text: '2025年8月5日 - 周末的思考', link: '/diary/2025-08-05' }

@@ -11,6 +11,9 @@ outline: deep
 
 ### 2025年8月
 
+- [React 和 Vue3 路由导航深度解析](./2025-08-07-react-vue-router.md)
+  *深入对比 React Router v6 和 Vue Router 4 的设计理念、API 使用和最佳实践*
+
 - [React Render Props vs Vue 插槽 - 组件复用模式对比](./2025-08-06-react-render-props.md)
   *深入对比 React 的 Render Props 和 Vue 插槽机制，探索组件逻辑复用的不同思路*
 
@@ -23,10 +26,12 @@ outline: deep
 ## 🏷️ 文章分类
 
 ### 💻 技术相关
+- [路由导航](./2025-08-07-react-vue-router.md) - React Router vs Vue Router
 - [React](./2025-08-06-react-render-props.md) - Render Props 模式
 - [Vue](./2025-08-06-react-render-props.md) - 插槽机制
 - [VitePress](./2025-08-06.md) - 静态网站生成器
 - [前端架构](./2025-08-06-react-render-props.md) - 组件设计模式
+- [单页应用](./2025-08-07-react-vue-router.md) - SPA 路由方案
 
 ### 📚 学习成长  
 - [思考](./2025-08-05.md) - 个人成长思考
@@ -41,10 +46,10 @@ outline: deep
 import { ref } from 'vue'
 
 const stats = ref({
-  totalPosts: 3,
+  totalPosts: 4,
   currentMonth: '2025年8月',
-  totalWords: 2800,
-  categories: ['React', 'Vue', '技术', '学习', '生活', '思考']
+  totalWords: 4200,
+  categories: ['React', 'Vue', '路由', '技术', '学习', '生活', '思考']
 })
 </script>
 
