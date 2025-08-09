@@ -11,6 +11,9 @@ outline: deep
 
 ### 2025年8月
 
+- [Vue 路由组件 keep-alive 的 name 匹配机制详解](./2025-08-09-vue-keep-alive.md)
+  *深入解析 Vue 中 keep-alive 组件的缓存机制，重点讲解 name 匹配规则和常见陷阱*
+
 - [React 和 Vue3 路由导航深度解析](./2025-08-07-react-vue-router.md)
   *深入对比 React Router v6 和 Vue Router 4 的设计理念、API 使用和最佳实践*
 
@@ -26,6 +29,7 @@ outline: deep
 ## 🏷️ 文章分类
 
 ### 💻 技术相关
+- [Vue 性能优化](./2025-08-09-vue-keep-alive.md) - keep-alive 缓存机制
 - [路由导航](./2025-08-07-react-vue-router.md) - React Router vs Vue Router
 - [React](./2025-08-06-react-render-props.md) - Render Props 模式
 - [Vue](./2025-08-06-react-render-props.md) - 插槽机制
@@ -46,10 +50,10 @@ outline: deep
 import { ref } from 'vue'
 
 const stats = ref({
-  totalPosts: 4,
+  totalPosts: 5,
   currentMonth: '2025年8月',
-  totalWords: 4200,
-  categories: ['React', 'Vue', '路由', '技术', '学习', '生活', '思考']
+  totalWords: 6000,
+  categories: ['Vue', 'React', '路由', 'keep-alive', '性能优化', '技术', '学习', '生活', '思考']
 })
 </script>
 
