@@ -11,6 +11,12 @@ outline: deep
 
 ### 2025年8月
 
+- [软考系统架构师：嵌入式系统设计与开发全面解析](./2025-08-15-embedded-systems.md)
+  *深入解析嵌入式系统硬件架构、实时操作系统、开发流程和性能优化，参考文老师软考教育重点内容*
+
+- [软考系统架构师：存储系统深度解析与性能优化](./2025-08-15-storage-systems.md)
+  *全面解析存储系统层次结构、缓存技术、RAID技术和分布式存储，助力软考备考*
+
 - [软考系统架构师：指令流水线计算详解与实战](./2025-08-14-pipeline-calculation.md)
   *深入解析指令流水线技术，重点讲解流水线性能计算方法和实战技巧*
 
@@ -60,10 +66,10 @@ outline: deep
 import { ref } from 'vue'
 
 const stats = ref({
-  totalPosts: 7,
+  totalPosts: 9,
   currentMonth: '2025年8月',
-  totalWords: 8500,
-  categories: ['软考', '流水线', 'Vue', 'React', '路由', 'keep-alive', '性能优化', '技术', '学习', '生活', '思考']
+  totalWords: 22000,
+  categories: ['软考', '嵌入式系统', '实时系统', 'ARM', 'RTOS', '存储系统', '流水线', 'RAID', '缓存', 'Vue', 'React', '路由', 'keep-alive', '性能优化', '技术', '学习', '生活', '思考']
 })
 </script>
 

@@ -13,12 +13,12 @@ export default defineConfig({
       { 
         text: '📅 最新文章',
         items: [
+          { text: '嵌入式系统设计与开发全面解析', link: '/diary/2025-08-15-embedded-systems' },
+          { text: '存储系统深度解析与性能优化', link: '/diary/2025-08-15-storage-systems' },
           { text: '指令流水线计算详解与实战', link: '/diary/2025-08-14-pipeline-calculation' },
           { text: '软考系统架构师：寻址方式详解', link: '/diary/2025-08-14-addressing-modes' },
           { text: 'Vue keep-alive 缓存机制详解', link: '/diary/2025-08-09-vue-keep-alive' },
-          { text: 'React 和 Vue3 路由导航解析', link: '/diary/2025-08-07-react-vue-router' },
-          { text: 'React Render Props vs Vue 插槽', link: '/diary/2025-08-06-react-render-props' },
-          { text: '2025年8月6日 - 开始写博客', link: '/diary/2025-08-06' }
+          { text: 'React 和 Vue3 路由导航解析', link: '/diary/2025-08-07-react-vue-router' }
         ]
       },
       { text: '📚 示例', link: '/markdown-examples' }
@@ -40,6 +40,14 @@ export default defineConfig({
               text: '📅 8月',
               collapsed: false,
               items: [
+                {
+                  text: '15日',
+                  collapsed: false,
+                  items: [
+                    { text: '嵌入式系统设计与开发全面解析', link: '/diary/2025-08-15-embedded-systems' },
+                    { text: '存储系统深度解析与性能优化', link: '/diary/2025-08-15-storage-systems' }
+                  ]
+                },
                 {
                   text: '14日',
                   collapsed: false,
