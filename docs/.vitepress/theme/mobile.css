@@ -1,0 +1,165 @@
+/**
+ * 移动端优化样式
+ */
+
+/* 基础移动端适配 */
+@media (max-width: 768px) {
+  .VPDoc .container {
+    padding: 0 24px;
+  }
+  
+  .VPNav .VPNavBar .container {
+    padding: 0 24px;
+  }
+  
+  /* 导航菜单优化 */
+  .VPMenu {
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+  
+  /* 侧边栏优化 */
+  .VPSidebar {
+    padding: 32px 24px 96px;
+  }
+  
+  /* 内容区域优化 */
+  .VPContent {
+    padding: 24px 0;
+  }
+  
+  /* 代码块横向滚动 */
+  .vp-code-group .tabs {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  /* 表格横向滚动 */
+  .vp-doc table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  /* 搜索框优化 */
+  .VPNavBarSearch {
+    margin-right: 12px;
+  }
+}
+
+/* 超小屏幕适配 */
+@media (max-width: 480px) {
+  .VPDoc .container {
+    padding: 0 16px;
+  }
+  
+  .VPNav .VPNavBar .container {
+    padding: 0 16px;
+  }
+  
+  .VPSidebar {
+    padding: 24px 16px 96px;
+  }
+  
+  /* 字体大小调整 */
+  .vp-doc h1 {
+    font-size: 1.8rem;
+    line-height: 1.2;
+  }
+  
+  .vp-doc h2 {
+    font-size: 1.5rem;
+    line-height: 1.3;
+  }
+  
+  .vp-doc h3 {
+    font-size: 1.3rem;
+    line-height: 1.4;
+  }
+}
+
+/* 触摸优化 */
+@media (hover: none) and (pointer: coarse) {
+  /* 增大点击目标 */
+  .vp-doc a,
+  .VPNavBarMenuLink,
+  .VPSidebarLink {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* 移除hover效果 */
+  .vp-doc a:hover,
+  .VPNavBarMenuLink:hover,
+  .VPSidebarLink:hover {
+    background-color: transparent;
+  }
+}
+
+/* 自定义高亮样式的移动端适配 */
+@media (max-width: 768px) {
+  .highlight-red,
+  .highlight-blue,
+  .highlight-green,
+  .highlight-orange,
+  .highlight-purple {
+    padding: 1px 3px;
+    font-size: 0.9em;
+    line-height: 1.4;
+  }
+  
+  .port-table,
+  .tcp-box,
+  .udp-box,
+  .exam-memory,
+  .memory-tip {
+    margin: 12px 0;
+    padding: 12px;
+    font-size: 0.9em;
+  }
+  
+  .protocol-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  
+  .protocol-card {
+    padding: 12px;
+  }
+}
+
+/* 加载性能优化 */
+.vp-doc img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 防止内容溢出 */
+.vp-doc {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+/* 改善代码块在移动端的显示 */
+@media (max-width: 768px) {
+  .vp-code-group {
+    margin: 16px -24px;
+  }
+  
+  .vp-code-group .tabs {
+    padding: 0 24px;
+  }
+  
+  .vp-code-group .blocks {
+    margin: 0;
+  }
+  
+  .language-sql,
+  .language-javascript,
+  .language-typescript {
+    font-size: 0.8em;
+    line-height: 1.4;
+  }
+}
