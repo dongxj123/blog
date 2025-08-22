@@ -13,12 +13,12 @@ export default defineConfig({
       { 
         text: '📅 最新文章',
         items: [
+          { text: '软考系统架构师：数据库三级模式与设计详解', link: '/diary/2025-08-20-database-architecture' },
+          { text: '系统架构设计师考试资料整理', link: '/diary/2025-08-16-architecture-exam-materials' },
           { text: '嵌入式系统设计与开发全面解析', link: '/diary/2025-08-15-embedded-systems' },
           { text: '存储系统深度解析与性能优化', link: '/diary/2025-08-15-storage-systems' },
           { text: '指令流水线计算详解与实战', link: '/diary/2025-08-14-pipeline-calculation' },
-          { text: '软考系统架构师：寻址方式详解', link: '/diary/2025-08-14-addressing-modes' },
-          { text: 'Vue keep-alive 缓存机制详解', link: '/diary/2025-08-09-vue-keep-alive' },
-          { text: 'React 和 Vue3 路由导航解析', link: '/diary/2025-08-07-react-vue-router' }
+          { text: '软考系统架构师：寻址方式详解', link: '/diary/2025-08-14-addressing-modes' }
         ]
       },
       { text: '📚 示例', link: '/markdown-examples' }
@@ -40,6 +40,20 @@ export default defineConfig({
               text: '📅 8月',
               collapsed: false,
               items: [
+                {
+                  text: '20日',
+                  collapsed: false,
+                  items: [
+                    { text: '软考系统架构师：数据库三级模式与设计详解', link: '/diary/2025-08-20-database-architecture' }
+                  ]
+                },
+                {
+                  text: '16日',
+                  collapsed: false,
+                  items: [
+                    { text: '系统架构设计师考试资料整理', link: '/diary/2025-08-16-architecture-exam-materials' }
+                  ]
+                },
                 {
                   text: '15日',
                   collapsed: false,
